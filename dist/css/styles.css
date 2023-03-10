@@ -7851,8 +7851,48 @@ this is the get quote button
 .bg-imageHome {
     --bs-bg-opacity: 1;
  
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),
-                       rgba(0, 0, 0, 0.6)), url(../assets/GreenLawnBG1.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+                       rgba(0, 0, 0, 0.3)), url(../assets/banner1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.bg-imageHome1 {
+    --bs-bg-opacity: 1;
+ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+                       rgba(0, 0, 0, 0.3)), url(../assets/banner1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.bg-imageHome2 {
+    --bs-bg-opacity: 1;
+ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+                       rgba(0, 0, 0, 0.3)), url(../assets/banner2.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.bg-imageHome3 {
+    --bs-bg-opacity: 1;
+ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+                       rgba(0, 0, 0, 0.3)), url(../assets/banner3.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.bg-imageHome4 {
+    --bs-bg-opacity: 1;
+ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+                       rgba(0, 0, 0, 0.3)), url(../assets/banner4.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.bg-imageHome5 {
+    --bs-bg-opacity: 1;
+ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+                       rgba(0, 0, 0, 0.3)), url(../assets/banner5.jpg);
     -webkit-background-size: cover;
     background-size: cover;
 }
