@@ -11311,6 +11311,10 @@ this is the get quote button
   max-width: 12rem;
   height:auto;
 }
+.image-index{
+  max-width: 100%;
+  height: auto;
+}
 
 .rounded-3 {
   border-radius: 3px;
