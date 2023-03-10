@@ -11326,3 +11326,10 @@ this is the get quote button
 .col-lg-8 img {
   margin-left: -20px;
 }
+
+.center-text{
+    text-align: center !important;
+    float:none;
+}
+
+
