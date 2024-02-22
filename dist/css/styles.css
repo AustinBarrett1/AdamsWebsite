@@ -11438,6 +11438,7 @@ this is the get quote button
   border-radius: 8px;
   position: relative; /* Make .square a containing block for absolute positioning */
   overflow: hidden; /* Hide overflow */
+  
 }
 
 
@@ -11445,7 +11446,7 @@ this is the get quote button
   position: absolute;
   top: 50%;
   left: 50%;
-  width: auto;
+  width: 100%;
   height: 100%; /* Make the image fill the container height */
   transform: translate(-50%, -50%);
   object-fit: cover; /* Cover the area of the container without distortion */
