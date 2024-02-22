@@ -11403,7 +11403,69 @@ this is the get quote button
     padding-top: 56.25%;
 }
 
+.popup-image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: auto; /* Adjust the width automatically to maintain aspect ratio */
+  height: auto; /* Adjust the height automatically to maintain aspect ratio */
+  width: 80vw; /* Max width is 80% of the viewport width */
+  height: 80vh; /* Max height is 80% of the viewport height */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition for appearance */
+  object-fit: contain; /* Ensure the image does not stretch and maintains its aspect ratio */
+}
 
 
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  transition: opacity 0.5s ease; /* Smooth transition for fading */
+  opacity: 0; /* Start with overlay transparent */
+}
+
+.square {
+  width: 100%;
+  padding-bottom: 100%; /* This might need to be adjusted or removed */
+  border: #42b985 solid;
+  border-radius: 8px;
+  position: relative; /* Make .square a containing block for absolute positioning */
+  overflow: hidden; /* Hide overflow */
+}
+
+
+.square img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: 100%; /* Make the image fill the container height */
+  transform: translate(-50%, -50%);
+  object-fit: cover; /* Cover the area of the container without distortion */
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 4em;    
+  flex-wrap: wrap;
+}
+
+.unit{
+  max-width: 30%;
+  min-width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
 
 
