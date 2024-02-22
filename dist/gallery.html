@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Adams' Lawn and Landscape</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon1.ico" />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="js/imagePop.js" defer></script>
+  </head>
+  <body>
+    <!--this is for making the page go dark after selecting a photo-->
+    <div
+      id="overlay"
+      style="
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+      "
+    ></div>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+        crossorigin="anonymous"
+      ></script>
+      <div class="container px-5">
+        <a class="navbar-brand" href="index.html">Adams' Lawn and Landscape</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="summer.html">Summer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="winter.html">Winter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="gallery.html">Gallery</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header-->
+    <header class="bg-imageHome2 py-4">
+      <div class="container px-4">
+        <div class="row gx-5 justify-content-center">
+          <div class="col-lg-6">
+            <div class="text-center my-5">
+              <h1 class="display-5 fw-bolder text-white mb-2">Photo Gallery</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Features section-->
+    <section class="py-5 border-bottom">
+      <div class="flex-container">
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230402_174848700.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230515_121517641.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230517_203926369.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230530_130652251.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230530_130721415.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230605_234542467.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230605_234554539.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230607_175636651.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230607_175657997.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230613_181311854.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230623_165415036.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230629_154623097.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230613_181311854.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230707_214255516.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230710_221729002.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230719_105025957.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230808_162716147.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230814_174654271.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230828_160708214.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230830_190842892.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230830_221806190.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230908_143242786.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230913_205101322.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230914_174803194.MP.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230915_132552567.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230917_183734800.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20230925_195225424.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20231003_160340996.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20231011_120221200.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20231018_191759555.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20231018_191814799.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="unit">
+          <div class="square">
+            <div class="clickable-image" style="cursor: pointer">
+              <img
+                src="gallery/PXL_20231110_195849778.jpg"
+                class="box fit image-main"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+      <div class="container px-5">
+        <div class="row justify-content-center align-items-end">
+          <div class="col-lg-4">
+            <ul class="list-unstyled mb-0">
+              <li class="text-white text-center">Contact information:</li>
+
+              <li class="text-white text-center">705-562-4338</li>
+              <li class="text-white text-center">
+                <a href="mailto:adamslawnandlandscape03@gmail.com"
+                  >adamslawnandlandscape03@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
