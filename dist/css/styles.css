@@ -11460,8 +11460,8 @@ this is the get quote button
 }
 
 .unit{
+  width: 180px;
   max-width: 30%;
-  min-width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: center;
